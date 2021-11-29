@@ -29,13 +29,14 @@ a{
 
 .container{
     position: relative;
-    border-radius: 2%;
     margin-top: 30px;
+    font-size: 0;
 }
 
 .banner{
     width: 100%;
     height: 700px;
+    border-radius: 2%;
 }
 
 .shadow{
@@ -72,42 +73,48 @@ a{
 
 .container-table{
     width: 100%;
+    height: 100%;
+    
 }
 
 
 .banner2{
-    width: 450px;
+    width: 100%;
     height: 200px;
-    object-position: 50% 50%;
-    border-radius: 20%;
+    object-position: fit;
 }
 
 .img-sidebar-dx{
-    width: 250px;
+    width: 100%;
     height: 200px;
 
 }
 
 .img-sidebar-sx {
-    width: 250px;
+    width: 100%;
     height: 200px;
 }
 
 .sidebar-sx{
     width: 24%;
     float: left;
+    position: relative;
+    border-radius: 2%;
 }
 
 .content {
     float: left;
     width: 50%;
     margin: 0 1%;
-    
+    position: relative;
+    border-radius: 2%;
 }
 
 .sidebar-dx{
     width: 24%;
     float: right;
+    position: relative;
+    border-radius: 2%;
 }
 
 
